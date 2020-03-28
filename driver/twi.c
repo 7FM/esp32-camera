@@ -21,6 +21,10 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include "twi.h"
+
+#include "sdkconfig.h"
+#include "soc/rtc_io_periph.h"
+
 #include "soc/gpio_reg.h"
 #include "soc/gpio_struct.h"
 #include "soc/io_mux_reg.h"

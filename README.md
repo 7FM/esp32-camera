@@ -15,6 +15,7 @@ This repository hosts ESP32 compatible driver for OV2640 and OV3660 image sensor
 
 - Clone or download and extract the repository to the components folder of your ESP-IDF project
 - Enable PSRAM in `menuconfig`
+- Enable RTCIO_SUPPORT_RTC_GPIO_DESC in `menuconfig`
 - Include `esp_camera.h` in your code
 
 ## Examples
